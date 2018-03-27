@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+
+body {
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.clearfix:after,
+.clearfix:before,
+.clearfix {
+    content: '';
+    display: block;
+    float: none;
+    clear: both;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-transform: uppercase;
+    font-size: 48px;
+    margin-top: 73px;
+}
+
+.h1_text {
+    text-shadow: none;
+    background: linear-gradient(#322539, #745083);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.col-1,
+.col-2 {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    height: 400px;
+}
+
+
+.slider {
+    height: 400px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+header {
+    height: 847px;
+    background-image: url(../img/bg.jpg);
+    background-position: center 100%;
+}
+
+.logo {
+    display: block;
+    float: left;
+}
+
+.menu_header {
+    display: block;
+    float: right;
+}
+
+.header_wrapp {
+    height: 280px;
+}
+
+.menu_head__item {
+    margin-top: -30px;
+
+}
+
+.menu_header__link {
+    text-shadow: 1px 1px 2px black;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 2px 5px 2px;
+    margin: 0px 15px 0;
+    text-transform: uppercase;
+    color: white;
+}
+
+.menu_header__link:hover {
+    border-bottom: solid 3px #edbfff;
+}
+
+
+.iphoneimg {
+    margin: -20px 0px 0px 160px;
+}
+
+.col_1__h1 {
+    margin-top: 80px;
+    font-size: 60px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+
+
+
+}
+
+.col_1__p1 {
+    margin-top: 15px;
+    font-size: 32px;
+    color: #edbfff;
+    text-shadow: 1px 1px 2px black;
+}
+
+.col_1__p2 {
+    margin-top: 10px;
+    font-family: 'Myriad Pro', 'Times New Roman', serif;
+    line-height: 1.5;
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+main {
+    height: 340px;
+    background: linear-gradient(#745083, #322539);
+}
+
+.main_wrapp {
+    box-sizing: border-box;
+    height: 340px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.main_text {
+    height: 215px;
+    width: 290px;
+    box-sizing: border-box;
+
+}
+
+.main_img {
+    display: block;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin: 15px 0 0 5px;
+}
+
+.main_text_text {
+    line-height: 1.5;
+    display: block;
+    height: 100%;
+    width: 225px;
+    float: right;
+}
+
+h3 {
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.main_text_p {
+    font-family: 'Myriad Pro', 'Times New Roman', serif;
+    font-size: 16px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.main_text_link {
+    margin-right: 5px;
+    float: right;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.main_text_link:hover {
+    text-shadow: 1px 0px 3px white;
+}
+
+
+
+/*МЕДИААААААААА*/
+
+}
+
+@media all and (max-width: 1200px) {
+    .container {
+        width: 992px;
+    }
+
+
+    h1 {
+        color: white;
+        text-shadow: 1px 1px 2px black;
+        text-transform: uppercase;
+        font-size: 48px;
+        margin-top: 73px;
+    }
+
+
+
+    .col-1,
+    .col-2 {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+        height: 400px;
+    }
+
+
+    .slider {
+        height: 400px;
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    header {
+        height: 847px;
+        background-image: url(../img/bg.jpg);
+        background-position: center 100%;
+    }
+
+    .logo {
+        display: block;
+        float: left;
+    }
+
+    .menu_header {
+        display: block;
+        float: right;
+    }
+
+    .header_wrapp {
+        height: 280px;
+    }
+
+    .menu_head__item {
+        margin-top: -30px;
+
+    }
+
+    .menu_header__link {
+        text-shadow: 1px 1px 2px black;
+        text-decoration: none;
+        font-size: 24px;
+        padding: 2px 5px 2px;
+        margin: 0px 15px 0;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .menu_header__link:hover {
+        border-bottom: solid 3px #edbfff;
+    }
+
+
+    .iphoneimg {
+        width: 100%;
+        height: 100%;
+        margin: -20px 0px 0px 160px;
+    }
+
+    .col_1__h1 {
+        margin-top: 80px;
+        font-size: 60px;
+
+        
+
+
+
+    }
+
+    .col_1__p1 {
+        margin-top: 15px;
+        font-size: 32px;
+    
+    }
+
+    .col_1__p2 {
+        margin-top: 10px;
+        line-height: 1.5;
+        font-size: 18px;
+    }
+
+    main {
+        height: 340px;
+    }
+
+    .main_wrapp {
+        box-sizing: border-box;
+        height: 340px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+
+    .main_text {
+        height: 215px;
+        width: 290px;
+    }
+
+    .main_img {
+        width: 25px;
+        height: 25px;
+        float: left;
+        margin: 15px 0 0 5px;
+    }
+
+    .main_text_text {
+        line-height: 1.5;
+        display: block;
+        height: 100%;
+        width: 225px;
+        float: right;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .main_text_p {
+        font-size: 16px;
+
+    }
+
+    .main_text_link {
+        margin-right: 5px;
+        float: right;
+        font-size: 18px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 992px) {
+    .container {
+        width: 768px;
+    }
+    h1 {
+        color: white;
+        text-transform: uppercase;
+        font-size: 48px;
+        margin-top: 70px;
+    }
+
+
+    .col-1,
+    .col-2 {
+        height: 400px;
+    }
+
+
+    .slider {
+        height: 400px;
+
+    }
+
+    header {
+        height: 800px;
+    }
+
+    .logo {
+        display: inline;
+        float: none;
+
+    }
+    .menu_head__item {
+        margin-top: 35px
+    }
+
+    .menu_header {
+        display: inline;
+        float: none;
+        margin-top: 80px;
+    }
+
+    .header_wrapp {
+        height: 280px;
+    }
+
+
+    .menu_header__link {
+        font-size: 20px;
+        padding: 2px 5px 2px;
+        margin: 0px 10px 0;
+        text-transform: uppercase;
+
+    }
+
+    .menu_header__link:hover {
+        border-bottom: solid 2px #edbfff;
+    }
+
+
+    .iphoneimg {
+        width: 80%;
+        height: 80%;
+        margin: -20px 0px 0px 25px;
+    }
+
+    .col_1__h1 {
+        margin-top: 40px;
+        font-size: 40px;
+
+
+
+
+
+    }
+
+    .col_1__p1 {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    .col_1__p2 {
+        margin-top: 10px;
+        line-height: 1.5;
+        font-size: 14px;
+    }
+
+    main {
+        height: 340px;
+        background: linear-gradient(#745083, #322539);
+    }
+
+    .main_wrapp {
+        box-sizing: border-box;
+        height: 340px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+
+    .main_text {
+        height: 250px;
+        width: 200px;
+        box-sizing: border-box;
+
+    }
+
+    .main_img {
+        display: block;
+        width: 20px;
+        height: 20px;
+        float: left;
+        margin: 15px 10px 0 5px;
+    }
+
+    .main_text_text {
+        display: block;
+        height: 100%;
+        width: 140px;
+        float: right;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .main_text_p {
+        font-size: 14px;
+
+    }
+    .main_text_link {
+        margin-right: 5px;
+        float: right;
+        font-size: 18px;
+    }
+
+
+
+}
+
+@media all and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media all and (max-width: 540px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .container {
+        width: 100%;
+    }
+}
